@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+}
+.header{
+    position: relative;
+    right: 0;
+    width: 100%;
+    /* right: 0; */
+    /* left: 0; */
+}
+.top{
+   position: relative; 
+   /* float: right; */
+   /* margin: 5px; */
+   /* margin-left: 500px; */
+    text-align: right;
+}
+
+.top a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+    text-decoration: none;
+}
+.top a:hover{
+    text-decoration: underline;
+
+}
+.squares{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    top: 4px;
+    right: 2px;
+}
+
+
+.sign_in{
+    background-color: #4387fd;
+    color: white;
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    margin-left: 9px;
+}
+
+.googleImage{
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: solid 1px; */
+}
+
+.main input{
+   margin-left: auto;
+   display: block;
+   margin-right: auto;
+   width: 500px;
+   height: 39px;
+    padding-left: 10px;
+   border: 1px solid lightgray;
+   box-shadow: 0px 1px 2px lightgray;
+   position: relative;
+   top: -40px;
+/* https://www.google.com/search?&q=MYMESSAGE */ 
+} 
+.main input:hover{
+    box-shadow: 0px 3px 5px lightgray;
+    border: 1px solid rgb(145, 138, 138);
+    transition: 0.1s ease-in;
+}
+
+.buttons button{
+    width: 135px;
+    height: 35px;
+    margin: 3px;
+    border: none;
+    color: rgb(99, 99, 99);
+    background: rgb(231, 231, 231);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons button:hover{
+    border: 1px solid rgb(167, 167, 167);
+    background: rgb(240, 240, 240);
+    color:black;
+}
+
+
+.button-container{
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    margin: 0;
+    display: block;
+    position: fixed;
+    width: 100%;
+    border: 1px solid rgb(192, 192, 192);
+    bottom: 0;
+    background-color: rgb(233, 233, 233);
+}
+
+.footer h4{
+    margin-left: 0px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-bottom: 15px;
+    position: relative;
+    top: -5px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: gray;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.right_bottom a, .left_bottom a{
+    position: relative;
+    top: -10px;
+    text-decoration: none;
+    color: gray; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+.right_bottom a:hover, .left_bottom a:hover{
+    text-decoration: underline;
+}
+
+.left_bottom {
+    margin-left: 30px;
+}
+.right_bottom{
+    /* margin-right: 30px; */
+    float: right;
+    margin-right: 30px;
+
+}
